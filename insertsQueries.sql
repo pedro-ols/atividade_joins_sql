@@ -2,6 +2,7 @@ INSERT INTO generos (genero_ID, genero_nome) VALUES
 (1, 'Luta'),
 (2, 'RPG'),
 (3, 'Aventura');
+(4, 'Estratégia')
 
 INSERT INTO jogos (jogo_nome, jogo_ano_lancamento, genero_ID) VALUES
 ('Pokémon: Diamond', 2006, 2),
@@ -14,4 +15,5 @@ INSERT INTO jogos (jogo_nome, jogo_ano_lancamento, genero_ID) VALUES
 ('Mineirinho Ultra Adventures', 2017, 3),
 ('Mineirinho Ultra Adventures 2', 2022, 3),
 ('Palworld', 2024, 3);
+('Enigma do Medo', 2024);
 
