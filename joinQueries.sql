@@ -1,7 +1,7 @@
-SELECT blablabla.blablabla_2, blablabla.blablabla_3, uiuiui.uiuiui_2  FROM blablabla INNER JOIN uiuiui ON blablabl.uiuiui_ID = uiuiui.uiuiui_ID;
+SELECT jogos.jogo_nome, jogos.ano_lancamento, generos.genero_nome  FROM jogos INNER JOIN generos ON jogos.genero_ID = generos.genero_ID;
 
-SELECT blablabla.blablabla_2, blablabla.blablabla_3, uiuiui.uiuiui_2  FROM blablabla LEFT JOIN uiuiui ON blablabl.uiuiui_ID = uiuiui.uiuiui_ID;
+SELECT jogos.jogo_nome, jogos.ano_lancamento, generos.genero_nome  FROM jogos LEFT JOIN generos ON jogos.genero_ID = generos.genero_ID;
 
-SELECT blablabla.blablabla_2, blablabla.blablabla_3, uiuiui.uiuiui_2  FROM blablabla RIGHT JOIN uiuiui ON blablabl.uiuiui_ID = uiuiui.uiuiui_ID;
+SELECT jogos.jogo_nome, jogos.ano_lancamento, generos.genero_nome  FROM jogos RIGHT JOIN generos ON jogos.genero_ID = generos.genero_ID;
 
-SELECT blablabla.blablabla_2, blablabla.blablabla_3, uiuiui.uiuiui_2  FROM blablabla FULL JOIN uiuiui ON blablabl.uiuiui_ID = uiuiui.uiuiui_ID;
+SELECT jogos.jogo_nome, jogos.ano_lancamento, generos.genero_nome  FROM jogos FULL JOIN generos ON jogos.genero_ID = generos.genero_ID;
